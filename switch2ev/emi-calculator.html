@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMI Calculator</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./script.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<body class="emi">
+    <header class="row container">
+        <a href="#" class="logo row"><h1>Switch2EV</h1></a>
+        <div class="toggleMenu" onclick="toggleMenu();"></div>
+        <nav class="navigation row">
+            <ul class="row">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./consult.html">Consult</a></li>
+                <li><a href="./emi-calculator.html">Emi<br>Calculator </a></li>
+                <li><a href="./dealers.html">Dealers</a></li>
+                 
+            </ul>
+        </nav>
+    </header>
+    <div class="loan-calculator">
+        <div class="top">
+        <h2>Loan Calculator</h2>
+        <form action="#">
+            <div class="group">
+            <div class="title">Amount</div>
+            <input type="text" value="20000" class="loan-amount">
+            </div>
+
+            
+            <div class="group">
+            <div class="title">Interest Rate</div>
+            <input type="text" value="88" class="interest-rate">
+            </div>
+
+            <div class="group">
+            <div class="title">Tenure (in month)</div>
+            <input type="text" value="120" class="loan-tenure">
+            </div>
+
+
+        </form>
+    </div>
+
+
+    <div class="result">
+        <div class="left">
+            <div class="loan-emi">
+                <h3>Loan Emi</h3>
+                <div class="value">123</div>
+            </div>
+
+            <div class="total-interest">
+                <h3>Total Interest Payable</h3>
+                <div class="value">1234</div>
+            </div>
+
+            <div class="total-amount">
+                <h3>Total Amount</h3>
+                <div class="value">123</div>
+            </div>
+
+            <button class="calculate-btn">Calculate</button>
+        </div>
+       <!--
+        <div class="right">Chart</div>-->
+        
+    </div>
+    
+    
+    </div>
+    <div class="available-offers">
+        <h1>Available Offers</h1>
+        <span class="offers">
+            
+            <i class='bx bx-purchase-tag'></i> 
+            <h3>Bank Offer 10% off on Bank Muscat Credit Card, up to 15000. On orders of 50000 and above</h3>
+        </span>
+        <span class="offers">
+            <i class='bx bx-purchase-tag'></i> 
+            <h3>Bank Offer Get additional OMR 7500 off on Bank Dhofar bank Credit/Debit Card EMI Transactions</h3>
+        </span>
+        <span class="offers">
+            <i class='bx bx-purchase-tag'></i> 
+            <h3>Bank Offer10% off on Bank Muscat Credit Card, up to 15000. On orders of 50000 and above</h3>
+        </span>
+        <span class="offers">
+            <i class='bx bx-purchase-tag'></i> 
+            <h3>Bank Offer10% off on Bank Muscat Credit Card, up to 15000. On orders of 50000 and above</h3>
+        </span>
+        <span class="offers">
+            <i class='bx bx-purchase-tag'></i> 
+            <h3>Bank Offer10% off on Bank Muscat Credit Card, up to 15000. On orders of 50000 and above</h3>
+        </span>
+    </div>
+
+    
+</body>
+</html>
